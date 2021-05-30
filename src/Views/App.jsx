@@ -1,9 +1,11 @@
 import React from 'react';
-import './App.css';
-import Dashboard from './components/Dashboard/Dashboard';
-import Navbar from './components/Navbar/Navbar';
-import Sidebar from './Sidebar/Sidebar';
+import '../../src/App.css';
+
+import Dashboard from '../components/Dashboard/Dashboard';
+import Navbar from '../components/Navbar/Navbar';
+import Sidebar from '../Sidebar/Sidebar';
 import { RecoilRoot } from 'recoil';
+
 function App() {
   return (
     <RecoilRoot>
